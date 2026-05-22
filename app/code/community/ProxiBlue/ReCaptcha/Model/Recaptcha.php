@@ -167,7 +167,6 @@ class ProxiBlue_ReCaptcha_Model_Recaptcha extends Mage_Captcha_Model_Zend implem
     {
         $httpRequest = new Zend_Http_Client(
             ProxiBlue_ReCaptcha_Helper_Data::RECAPTCHA_API_SERVER
-            . '/'
             . ProxiBlue_ReCaptcha_Helper_Data::RECAPTCHA_API_PATH
             . '/'
             . $path
